@@ -6,9 +6,10 @@ CHKDSK will be done in a two-steps way for safer execution.
 The computer will be shutdown after finishing, but can be aborted
 by pressing enter.
 
+UPDATE: The automatic shutdown has been removed.
+
 Supports:
  * NTFS 
  * FAT32 
  * New generation CKHDSK commands (/scan /perf ...) 
- * Special treatment of SYSTEM drive (C: as default). 
-   - Includes "sfc /scannow" for check system files integrity. 
+ * Scanning of SYSTEM drive (C: by default) now includes "sfc.exe /scannow" for check system file integrity.
