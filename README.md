@@ -1,15 +1,13 @@
-ScanDisk All
+chkdsk All
 ==========
 
-This program will run CHKDSK on all drives in an unattended manner.
-CHKDSK will be done in a two-steps way for safer execution.
-The computer will be shutdown after finishing, but can be aborted
-by pressing enter.
+This batch file will run CHKDSK on all local drives in a mostly unattended parallel manner.
+CHKDSK will be done in two steps for a safer execution.
 
-UPDATE: The automatic shutdown has been removed.
+NOTE: The _useless_ automatic shutdown has been removed.
 
 Supports:
  * NTFS 
  * FAT32 
- * New generation CKHDSK commands (/scan /perf ...) 
- * Scanning of SYSTEM drive (C: by default) now includes "sfc.exe /scannow" to check system file integrity.
+ * Modern CKHDSK commands (/scan /perf) 
+ * Scanning of SYSTEM drive (C: by default) now also includes "sfc.exe /scannow" to check system file integrity.
