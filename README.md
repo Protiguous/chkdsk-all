@@ -12,4 +12,4 @@ Supports:
  * NTFS 
  * FAT32 
  * New generation CKHDSK commands (/scan /perf ...) 
- * Scanning of SYSTEM drive (C: by default) now includes "sfc.exe /scannow" for check system file integrity.
+ * Scanning of SYSTEM drive (C: by default) now includes "sfc.exe /scannow" to check system file integrity.
